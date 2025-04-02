@@ -13,7 +13,7 @@ namespace wl.Tempo
     {
         private string username;
         private string clientSecret;
-        private const string uri = "https://api.tempo.io/core/3/worklogs";
+        private const string uri = "https://api.us.tempo.io/4/worklogs";
 
         public Client(string username, string clientSecret)
         {
